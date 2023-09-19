@@ -38,11 +38,17 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   color: black;
-  background-color: rgb(242, 252, 252);
-  background-image: url(../images/background.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #286a73;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #36231c;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 .visually-hidden {
