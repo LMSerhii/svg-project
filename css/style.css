@@ -177,7 +177,6 @@ body {
   fill: #000;
 }
 
-
 .text {
   fill: #000;
   transition: fill var(--animation);
@@ -214,7 +213,7 @@ body {
 }
 
 #icon-dollar-1 {
-  fill: #2B562E;
+  fill: #2b562e;
 }
 
 #icon-dollar-2 {
