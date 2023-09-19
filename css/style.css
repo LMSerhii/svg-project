@@ -174,10 +174,6 @@ body {
   fill: #000;
 }
 
-.circle.example {
-  fill: transparent;
-  stroke-width: 0.7;
-}
 
 .text {
   fill: #000;
