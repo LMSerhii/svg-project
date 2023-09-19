@@ -178,7 +178,7 @@ body {
 }
 
 .text {
-  fill: #000;
+  fill: #070707;
   transition: fill var(--animation);
 }
 
