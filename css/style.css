@@ -200,3 +200,11 @@ body {
   word-spacing: 1.5px;
   font-style: italic;
 }
+
+#icon-dollar {
+  fill: #000;
+}
+
+#icon-dollar-1 {
+  fill: #2B562E;
+}
