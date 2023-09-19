@@ -102,7 +102,7 @@ body {
 }
 
 .schedule-1 {
-  background-image: url(../images/desc-dark.jpg);
+  background-image: url(../images/desc-dark-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,7 +119,7 @@ body {
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .schedule-1 {
-    background-image: url(../images/desc-dark.jpg);
+    background-image: url(../images/desc-dark-2.jpg);
   }
 }
 
