@@ -23,27 +23,22 @@
   <body>
     <header class="header"></header>
     <main>
-      <!-- <section class="information">
-        <div class="header-container container">
-          <h1 class="header-title">Header 1</h1>
-          <div class="header-text-wrap">
-            <p class="header-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sint
-              recusandae, provident minus pariatur molestiae voluptas, delectus
-              tempore impedit ad nemo deserunt odio facilis vitae ullam
-              inventore nam architecto numquam officia enim. Eligendi cupiditate
-              repellendus ex id nihil ipsam atque aperiam necessitatibus
-              excepturi minima! Ex in vero ducimus ad laboriosam!
-            </p>
-          </div>
+      <section class="information">
+        <div class="information-container container">
+          <!-- <h1 class="header-title">Header 1</h1> -->
         </div>
-      </section> -->
+      </section>
 
-      <!-- viewBox="0 0 495 495" -->
-      <!--             width="495px"
-            height="495px" -->
       <section class="schedule-1">
         <div class="schedule-container container">
+          <div class="information-text-wrap">
+            <p class="information-text">
+              Дата рождения: <span class="resp">10.09.1990</span>
+            </p>
+            <p class="information-text">
+              Имя, возраст: <span class="resp">Анна, 33</span>
+            </p>
+          </div>
           <svg
             class="schedule-icon"
             viewBox="0 0 495 495"
@@ -361,29 +356,30 @@
 
               <!-- circles -->
 
-              <circle
+              <!-- <circle
                 cx="450"
                 cy="240"
                 r="118"
                 fill="transparent"
                 stroke="#000"
-                stroke-width="0.3" />
+                stroke-width="0.3" /> -->
 
               <!-- 8 -->
 
-              <rect
-                x="432.5"
-                y="222.5"
-                width="35"
-                height="35"
-                rx="50"
-                ry="50"
-                stroke="#fff3a9"
-                stroke-width="1.5"
-                fill="#fadc73" />
-
-              <g transform="translate(450 242)">
+              <g transform="translate(450 242)" class="icon">
+                <rect
+                  class="circle"
+                  x="-18"
+                  y="-18"
+                  width="35"
+                  height="35"
+                  rx="50"
+                  ry="50"
+                  stroke="#fff3a9"
+                  stroke-width="1.5"
+                  fill="#fadc73" />
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -397,6 +393,7 @@
 
               <!-- 9 -->
               <rect
+                class="circle"
                 x="439.5"
                 y="99.5"
                 width="21"
@@ -409,6 +406,7 @@
 
               <g transform="translate(450 111)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -422,6 +420,7 @@
 
               <!-- M -->
               <rect
+                class="circle-small"
                 x="445"
                 y="349"
                 width="10"
@@ -433,6 +432,7 @@
                 fill="#d5854b" />
               <g transform="translate(450 355)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -445,6 +445,7 @@
 
               <!-- 10 -->
               <rect
+                class="circle example"
                 x="436"
                 y="69.5"
                 width="28"
@@ -456,6 +457,7 @@
                 fill="#316bcb" />
               <g transform="translate(450 85)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -469,6 +471,7 @@
 
               <!-- 1 -->
               <rect
+                class="circle"
                 x="433"
                 y="33"
                 width="35"
@@ -480,6 +483,7 @@
                 fill="#99329c" />
               <g transform="translate(450 51)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -493,6 +497,7 @@
 
               <!-- Б -->
               <rect
+                class="circle-small"
                 x="445.2"
                 y="22.5"
                 width="10"
@@ -504,6 +509,7 @@
                 fill="#99329c" />
               <g transform="translate(450 28)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -536,6 +542,7 @@
 
               <!-- 12 -->
               <rect
+                class="circle"
                 x="439.5"
                 y="359.5"
                 width="21"
@@ -547,6 +554,7 @@
                 fill="#d4854a" />
               <g transform="translate(450 372)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -560,6 +568,7 @@
 
               <!-- 16 -->
               <rect
+                class="circle"
                 x="436"
                 y="382"
                 width="28"
@@ -571,6 +580,7 @@
                 fill="#fff" />
               <g transform="translate(450 398)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -584,6 +594,7 @@
 
               <!-- 4 -->
               <rect
+                class="circle"
                 x="433"
                 y="411"
                 width="35"
@@ -595,6 +606,7 @@
                 fill="#d64646" />
               <g transform="translate(450 430)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -608,6 +620,7 @@
 
               <!-- Г -->
               <rect
+                class="circle-small"
                 x="445.4"
                 y="446.5"
                 width="10"
@@ -619,6 +632,7 @@
                 fill="#b95658" />
               <g transform="translate(450 452)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -651,6 +665,7 @@
 
               <!-- 21 -->
               <rect
+                class="circle"
                 x="310"
                 y="229.5"
                 width="21"
@@ -662,6 +677,7 @@
                 fill="#35b1f0" />
               <g transform="translate(321 241)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -675,6 +691,7 @@
 
               <!-- 7 -->
               <rect
+                class="circle"
                 x="280.5"
                 y="225"
                 width="28"
@@ -686,6 +703,7 @@
                 fill="#316bcb" />
               <g transform="translate(295 241)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -699,6 +717,7 @@
 
               <!-- 13 -->
               <rect
+                class="circle"
                 x="245"
                 y="222"
                 width="35"
@@ -710,6 +729,7 @@
                 fill="#98339a" />
               <g transform="translate(262 241)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -723,6 +743,7 @@
 
               <!-- А -->
               <rect
+                class="circle-small"
                 x="234"
                 y="234"
                 width="10"
@@ -734,6 +755,7 @@
                 fill="#98339a" />
               <g transform="translate(239 239)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -766,6 +788,7 @@
 
               <!-- Л -->
               <rect
+                class="circle-small"
                 x="560"
                 y="235"
                 width="10"
@@ -777,6 +800,7 @@
                 fill="#e2855a" />
               <g transform="translate(565 240.5)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -789,6 +813,7 @@
 
               <!-- 7 -->
               <rect
+                class="circle"
                 x="571"
                 y="229.5"
                 width="21"
@@ -800,6 +825,7 @@
                 fill="#e2855a" />
               <g transform="translate(582 241)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -813,6 +839,7 @@
 
               <!-- 6 -->
               <rect
+                class="circle"
                 x="593.5"
                 y="226"
                 width="28"
@@ -824,6 +851,7 @@
                 fill="#fff" />
               <g transform="translate(608 241)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -837,6 +865,7 @@
 
               <!-- 17 -->
               <rect
+                class="circle"
                 x="623"
                 y="222"
                 width="35"
@@ -848,6 +877,7 @@
                 fill="#de4c4e" />
               <g transform="translate(640.5 241)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -861,6 +891,7 @@
 
               <!-- В -->
               <rect
+                class="circle-small"
                 x="658.5"
                 y="235"
                 width="10"
@@ -872,6 +903,7 @@
                 fill="#de4c4e" />
               <g transform="translate(663.5 241)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -904,6 +936,7 @@
 
               <!-- 22 -->
               <rect
+                class="circle"
                 x="347"
                 y="138"
                 width="21"
@@ -915,6 +948,7 @@
                 fill="#fff" />
               <g transform="translate(357.5 150)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -928,6 +962,7 @@
 
               <!-- 9 -->
               <rect
+                class="circle"
                 x="326"
                 y="115"
                 width="28"
@@ -939,6 +974,7 @@
                 fill="#fff" />
               <g transform="translate(340 130)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -953,6 +989,7 @@
               <!-- 14 -->
 
               <rect
+                class="circle"
                 x="300"
                 y="87"
                 width="35"
@@ -964,6 +1001,7 @@
                 fill="#fff" />
               <g transform="translate(317.5 106)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -977,6 +1015,7 @@
 
               <!-- Д -->
               <rect
+                class="circle-small"
                 x="296"
                 y="83"
                 width="10"
@@ -988,6 +1027,7 @@
                 fill="#000" />
               <g transform="translate(301 88)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1020,6 +1060,7 @@
 
               <!-- К -->
               <rect
+                class="circle-small"
                 x="491"
                 y="281"
                 width="10"
@@ -1031,6 +1072,7 @@
                 fill="#000" />
               <g transform="translate(496 286.5)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1043,6 +1085,7 @@
 
               <!-- 19 -->
               <rect
+                class="circle"
                 x="497"
                 y="287"
                 width="21"
@@ -1054,6 +1097,7 @@
                 fill="#fff" />
               <g transform="translate(507.5 299)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1067,6 +1111,7 @@
 
               <!-- 11 -->
               <rect
+                class="circle"
                 x="532"
                 y="321"
                 width="21"
@@ -1078,6 +1123,7 @@
                 fill="#fff" />
               <g transform="translate(543 333)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1091,6 +1137,7 @@
 
               <!-- 5 -->
               <rect
+                class="circle"
                 x="547"
                 y="336"
                 width="28"
@@ -1102,6 +1149,7 @@
                 fill="#fff" />
               <g transform="translate(561 352)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1115,6 +1163,7 @@
 
               <!-- 21 -->
               <rect
+                class="circle"
                 x="567.5"
                 y="355"
                 width="35"
@@ -1126,6 +1175,7 @@
                 fill="#fff" />
               <g transform="translate(585.5 374)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1139,6 +1189,7 @@
 
               <!-- Ж -->
               <rect
+                class="circle-small"
                 x="597"
                 y="383"
                 width="10"
@@ -1150,6 +1201,7 @@
                 fill="#000" />
               <g transform="translate(602 389)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1182,6 +1234,7 @@
 
               <!-- Н -->
               <rect
+                class="circle-small"
                 x="488"
                 y="315"
                 width="10"
@@ -1193,6 +1246,7 @@
                 fill="#000" />
               <g transform="translate(493 320.5)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1205,6 +1259,7 @@
 
               <!-- 4 -->
               <rect
+                class="circle"
                 x="495"
                 y="320"
                 width="21"
@@ -1216,6 +1271,7 @@
                 fill="#fff" />
               <g transform="translate(505 332)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1229,6 +1285,7 @@
 
               <!-- О -->
               <rect
+                class="circle-small"
                 x="526"
                 y="277"
                 width="10"
@@ -1240,6 +1297,7 @@
                 fill="#000" />
               <g transform="translate(531 282.5)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1252,6 +1310,7 @@
 
               <!-- 8 -->
               <rect
+                class="circle"
                 x="532"
                 y="283"
                 width="21"
@@ -1263,6 +1322,7 @@
                 fill="#fff" />
               <g transform="translate(542.5 294.5)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1276,6 +1336,7 @@
 
               <!-- 8 -->
               <rect
+                class="circle"
                 x="532"
                 y="138"
                 width="21"
@@ -1287,6 +1348,7 @@
                 fill="#fff" />
               <g transform="translate(542.5 150)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1300,6 +1362,7 @@
 
               <!-- 8 -->
               <rect
+                class="circle"
                 x="546"
                 y="115"
                 width="28"
@@ -1311,6 +1374,7 @@
                 fill="#fff" />
               <g transform="translate(560 131)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1324,6 +1388,7 @@
 
               <!-- 18 -->
               <rect
+                class="circle"
                 x="565"
                 y="87"
                 width="35"
@@ -1335,6 +1400,7 @@
                 fill="#fff" />
               <g transform="translate(582 106)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1348,6 +1414,7 @@
 
               <!-- Е -->
               <rect
+                class="circle-small"
                 x="595.5"
                 y="84"
                 width="10"
@@ -1359,6 +1426,7 @@
                 fill="#000" />
               <g transform="translate(600 89.5)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1391,6 +1459,7 @@
 
               <!-- 7 -->
               <rect
+                class="circle"
                 x="348.5"
                 y="321.5"
                 width="21"
@@ -1402,6 +1471,7 @@
                 fill="#fff" />
               <g transform="translate(359 334.5)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1415,6 +1485,7 @@
 
               <!-- 6 -->
               <rect
+                class="circle"
                 x="326.5"
                 y="336.5"
                 width="28"
@@ -1426,6 +1497,7 @@
                 fill="#fff" />
               <g transform="translate(340 353)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1439,6 +1511,7 @@
 
               <!-- 17 -->
               <rect
+                class="circle"
                 x="299"
                 y="355.8"
                 width="35"
@@ -1450,6 +1523,7 @@
                 fill="#fff" />
               <g transform="translate(316.5 375.5)">
                 <text
+                  class="text"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -1463,6 +1537,7 @@
 
               <!-- З -->
               <rect
+                class="circle-small"
                 x="295"
                 y="384"
                 width="10"
@@ -1474,6 +1549,7 @@
                 fill="#000" />
               <g transform="translate(300 389.5)">
                 <text
+                  class="text-small"
                   x="0"
                   y="0"
                   alignment-baseline="middle"
@@ -3217,7 +3293,7 @@
                 stroke-width="1"
                 fill="transparent" />
               <g transform="translate(368 422)">
-                                <text
+                <text
                   x="10"
                   y="-13"
                   alignment-baseline="middle"
@@ -3249,7 +3325,7 @@
                 stroke-width="1"
                 fill="transparent" />
               <g transform="translate(383 429)">
-                                <text
+                <text
                   x="8"
                   y="-11"
                   alignment-baseline="middle"
@@ -3279,7 +3355,7 @@
                 stroke-width="1"
                 fill="transparent" />
               <g transform="translate(398 434)">
-                                <text
+                <text
                   x="8"
                   y="-11"
                   alignment-baseline="middle"
@@ -3309,7 +3385,7 @@
                 stroke-width="1"
                 fill="#fff" />
               <g transform="translate(413 440)">
-                                <text
+                <text
                   x="8"
                   y="-11"
                   alignment-baseline="middle"
