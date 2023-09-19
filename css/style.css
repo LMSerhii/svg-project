@@ -38,10 +38,10 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   color: black;
-  background-color: #286a73;
+  background-color: #eefdff;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   body {
     background-color: #36231c;
     background-image: url(../images/background.jpg);
@@ -49,7 +49,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
   }
-}
+} */
 
 .visually-hidden {
   position: absolute;
@@ -101,6 +101,28 @@ body {
   }
 }
 
+.schedule-1 {
+  background-image: url(../images/desctop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .schedule-1 {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .schedule-1 {
+    background-image: url(../images/desc@2x.jpg);
+  }
+}
+
 .information-text-wrap {
   display: flex;
   flex-direction: column;
@@ -111,12 +133,11 @@ body {
 }
 
 .information-text {
-  /* font-size: 16px; */
   font-size: 12px;
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #000;
 }
 .resp {
   /* font-size: 14px; */
@@ -142,59 +163,6 @@ body {
   }
 }
 
-.schedule-container {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-}
-
-/* .schedule-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-}
-
-@media screen and (min-width: 375px) {
-  .schedule-container {
-    transform: translate(-50%, -50%) scale(1.1);
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .schedule-container {
-    transform: translate(-50%, -50%) scale(1);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .schedule-container {
-    transform: translate(-50%, -50%) scale(1.3);
-  }
-}
-
-@media screen and (min-width: 1160px) {
-  .schedule-container {
-    transform: translate(-50%, -50%) scale(1.4);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .schedule-container {
-    transform: translate(-50%, -50%) scale(1.5);
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .schedule-container {
-    transform: translate(-50%, -50%) scale(1.7);
-  }
-} */
 
 .circle {
   fill: #fff;
