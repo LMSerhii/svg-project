@@ -187,12 +187,12 @@ body {
 }
 
 .icon:hover .circle {
-  fill: #35b1f0;
+  fill: #eaf0f3;
   stroke: #b3eaf7;
 }
 
 .icon:hover .text {
-  fill: #fff;
+  fill: #fafcfd;
 }
 
 .arrow-text {
