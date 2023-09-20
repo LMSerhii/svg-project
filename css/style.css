@@ -167,6 +167,16 @@ body {
   stroke: #fff;
 }
 
+.out {
+  stroke-width: 0.5px;
+}
+
+@media screen and (min-width: 1280px) {
+  .out {
+    stroke-width: 0.2px;
+  }
+}
+
 .circle {
   fill: #fff;
   stroke: #000;
@@ -187,7 +197,7 @@ body {
 }
 
 .icon:hover .circle {
-  fill: #eaf0f3;
+  fill: cadetblue;
   stroke: #b3eaf7;
 }
 
@@ -209,9 +219,13 @@ body {
 }
 
 #icon-dollar {
-  fill: #000;
+  fill: #fff;
 }
 
 #icon-dollar-1 {
   fill: #ecf3ed;
+}
+
+.dot-on-line {
+  stroke: #fff;
 }
