@@ -196,14 +196,14 @@ body {
   fill: #fff;
 }
 
-.icon:hover .circle {
+/* .icon:hover .circle {
   fill: cadetblue;
   stroke: #b3eaf7;
 }
 
 .icon:hover .text {
   fill: #fafcfd;
-}
+} */
 
 .arrow-text {
   font-size: 6px;
